@@ -2,8 +2,15 @@
 #include <iostream>
 
 using namespace std;
+class Node { 
+	public:
+		int data;
+		Node* next;
+
+};
+
 
 int main() {
-	cout << "Hello, World!" << endl;
+	cout << "Linked list implementation" << endl;
 	return 0;
 }
